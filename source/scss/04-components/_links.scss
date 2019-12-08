@@ -1,0 +1,28 @@
+.u-link {
+  cursor: pointer;
+  @media (max-width: 568px) {
+    font-size: 18px;
+  }
+  &:link,
+  &:visited {
+    font-weight: bold;
+    opacity: 1;
+    transition: all 0.2s ease;
+  }
+  &:hover,
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.u-link-primary {
+  color: $primary-color!important;
+}
+
+.u-link-secondary {
+  color: rgba(#6B6B6B, 0.85)!important;
+}
+
+.u-link-dark {
+  color: $heading-color!important;
+}

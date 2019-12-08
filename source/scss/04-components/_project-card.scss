@@ -1,0 +1,81 @@
+.project_card {
+  max-width: 475px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(#707070, 0.25);
+  box-shadow: 0 3px 20px rgba(black, 0.07);
+  transform: scale(1);
+  transition: all 0.2s ease;
+
+  cursor: default;
+  &__header {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    @media (max-width: 568px) {
+      height: 275px;
+    }
+
+    h3 {
+      position: absolute;
+      bottom: 24px;
+      left: 2rem;
+      @media (max-width: 568px) {
+        bottom: 18px;
+        left: 1.5rem;
+      }
+    }
+  }
+
+  &__body {
+    padding: 2rem;
+    @media (max-width: 568px) {
+      padding: 1.25rem 1.25rem 1.75rem;
+    }
+    p {
+      margin-bottom: 10px;
+    }
+    .btn_wrapper {
+      text-align: right;
+      margin-top: 24px;
+      .u-btn-primary {
+        margin-left: 1rem;
+      }
+      // @media (max-width: 940px) {
+      // }
+      @media (max-width: 768px) {
+        .u-btn {
+          font-size: 16px;
+          padding: 9px auto;
+          min-width: 100px;
+        }
+        width: 100%;
+      }
+      @media (max-width: 400px) {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-top: 10px;
+        .u-btn {
+          &:first-of-type {
+            margin-bottom: 8px;
+          }
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  &:hover {
+    box-shadow: 0 3px 28px rgba(black, 0.1);
+    transform: scale(1.005);
+  }
+}

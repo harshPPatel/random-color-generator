@@ -1,0 +1,34 @@
+.hero_section {
+  margin-top: $navbar-height;
+  padding: 50px 0 60px;
+  background-color: $background-color;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  text-align: center;
+  @media (max-width: 768px) {
+    margin-top: 60px;
+  }
+  &::before {
+    background: url($pattern-image-path) center center no-repeat;
+    // background-size: unset;
+    display: block;
+    content: '';
+    position: absolute; 
+    top: 0;
+    left: 40vw;
+    width: 100%;
+    height: 100vh;
+    transform: rotate(-30deg);
+    opacity: 0.15;
+    z-index: -1;
+    @media (max-width: 768px) {
+      opacity: 0.08;
+      left: 70vw;
+      top: 10vh;
+    }
+  }
+  .u-container {
+    z-index: 1000px;
+  }
+}

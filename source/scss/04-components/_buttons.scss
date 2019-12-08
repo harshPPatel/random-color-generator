@@ -1,0 +1,52 @@
+.u-btn-white-outline:link, 
+.u-btn-white-outline:visited {
+  display: inline-block;
+  background-color: #fff;
+  padding: 4px 28px;
+  border: 2px solid $heading-color;
+  border-radius: 100px;
+  box-shadow: none;
+  transition: all 0.2s ease;
+}
+
+.u-btn-white-outline:hover,
+.u-btn-white-outline:active {
+  box-shadow: 0 3px 6px rgba(black, 0.16);
+}
+
+button.u-btn,
+.u-btn:link,
+.u-btn:visited {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  width: auto;
+  min-width: 150px;
+  padding: 9px 24px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: all 0.2s ease;
+}
+
+.u-btn:hover,
+.u-btn:active {
+  box-shadow: 0 3px 10px rgba(black, 0.35);
+}
+
+.u-btn-primary {
+  background-color: $primary-color;
+  color: white;
+}
+
+.u-btn-secondary {
+  background-color: $secondary-color;
+  color: $heading-color;
+}
+
+.u-btn-secondary:hover,
+.u-btn-secondary:active {
+  box-shadow: none;
+  background-color: darken($color: $secondary-color, $amount: 7);
+}

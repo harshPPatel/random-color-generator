@@ -1,0 +1,10 @@
+body#home {
+  // Hero
+  @import './hero';
+  
+  // Project Section
+  @import './projects-section';
+
+  // Contact Section
+  @import './contact';
+}

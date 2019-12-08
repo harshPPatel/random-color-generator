@@ -1,0 +1,30 @@
+// Container Width
+$container-width: 1140px;
+
+// Colors
+$heading-color: #1A1818;
+$primary-color: #FF3838;
+$background-color: #FBFBFB;
+$secondary-color: #E2E2E2;
+$footer-color: #2E2E2E;
+$disable-color: rgba(46, 46, 46, 0.2);
+$success-color: #28A745;
+
+// Fonts
+$base-font: 'Muli', sans-serif;
+
+// Hamburger Variables
+$hamburger-height: 24px;
+$hamburger-width: 34px;
+$hamburger-span-height: 6px;
+$hamburger-span-color: $heading-color;
+
+// Navigation Variables
+$navbar-height: 80px;
+
+// Images Path
+$pattern-image-path: './../images/pattern.png';
+$social-links-bg-image-path: './../images/contact-page-social-links-bg.jpg';
+
+// Basic Drop Shadow
+$basic-shadow: 3px 3px 10px rgba(black, 0.20);
