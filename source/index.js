@@ -8,3 +8,5 @@ import './scss/app.scss';
 
 // Example :
 // import './video/header-bg.mp4';
+
+import './coffee/index.coffee';

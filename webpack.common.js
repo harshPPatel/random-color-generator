@@ -70,6 +70,15 @@ module.exports = {
           },
         },
       },
+
+      // CoffeeScript Files
+      {
+        test: /\.coffee$/,
+        use: [
+          'babel-loader',
+          'coffee-loader'
+        ]
+      }
     ],
   },
 };
