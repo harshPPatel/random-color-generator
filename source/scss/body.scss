@@ -11,3 +11,35 @@
   background-color: var(--color);
   box-shadow: 4px 4px 16px rgba(#000, 0.25);
 }
+
+.color-format {
+  margin-bottom: 24px;
+
+  &.hex {
+    #hex-value {
+      font-size: 52px;
+    }
+  }
+
+  #rgb-value,
+  #hsb-value,
+  #cmyk-value {
+    font-size: 28px;
+  }
+
+  .color-type {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: var(--color);
+  }
+}
+
+.color-info {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 22px;
+
+  .instructions {
+    margin-top: 50px;
+  }
+}

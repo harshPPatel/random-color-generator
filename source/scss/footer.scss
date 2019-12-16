@@ -1,0 +1,20 @@
+footer {
+  text-align: right;
+
+  p {
+    margin-bottom: 16px;
+    opacity: 0.75;
+    transition: all 0.3s ease;
+    display: inline-block;
+    cursor: default;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    a {
+      font-weight: 900;
+      color: var(--color);
+    }
+  }
+}
