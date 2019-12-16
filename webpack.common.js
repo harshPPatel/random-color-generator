@@ -4,11 +4,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 // Exporting common webpack configuration
 module.exports = {
   // Entry points
-  entry: {
-    'vendors-ie': './source/vendor-ie.js',
-    vendors: './source/vendor.js',
-    main: './source/index.js',
-  },
+  entry: './source/index.js',
 
   // Dev tools Configuration
   devtool: 'source-maps',

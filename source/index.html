@@ -5,12 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Web Starter Kit</title>
-    <link rel="stylesheet" href="./css/test.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700,900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="u-container">
-      <h1>Hello World!</h1>
-      <p>Starter Kit with the Power🔥 of Webpack 🕸!</p>
-    </div>
+    <nav>
+      <div class="u-container">
+        <p>Random Color Generator</p>
+      </div>
+    </nav>
+    <main>
+      <div class="u-container">
+        <div class="row">
+          <div class="col">
+            <div id="color-container"></div>
+          </div>
+          <div class="col">
+            <div class="color-format hex">
+              <p id="hex-value">#5528FB</p>
+              <p id="color-type">hex</p>
+            </div>
+            <div class="color-format rgb">
+              <p id="hex-value">85, 40, 251</p>
+              <p id="color-type">rgb</p>
+            </div>
+            <div class="color-format hsb">
+              <p id="hex-value">253, 84, 98</p>
+              <p id="color-type">hsb</p>
+            </div>
+            <div class="color-format cmyk">
+              <p id="hex-value">66, 84, 0, 1</p>
+              <p id="color-type">cmyk</p>
+            </div>
+          </div>
+        </div>
+        <div class="color-info">
+          <p>
+            <b>Name:</b>
+            <span id="color-name">Han Purple</span>
+          </p>
+          <p>
+            <b>Recommended Text Colors:</b>
+            <span id="text-color">Light</span>
+          </p>
+          <p class="instructions">
+            <b>| Click</b> the <b>Color Ball</b> or <b>press Space</b>
+            to get New Random Color <b>|</b>
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Made with ❤. Checkout Code at
+        <a
+          href="https://github.com/harshPPatel/random-color-generator"
+          target="_blank">GitHub</a>
+      </p>
+    </footer>
   </body>
+
 </html>

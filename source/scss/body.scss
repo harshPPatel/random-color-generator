@@ -1,0 +1,13 @@
+.col:first-of-type {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#color-container {
+  height: 250px;
+  width: 250px;
+  border-radius: 1000px;
+  background-color: var(--color);
+  box-shadow: 4px 4px 16px rgba(#000, 0.25);
+}

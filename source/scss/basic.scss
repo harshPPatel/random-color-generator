@@ -1,0 +1,45 @@
+:root {
+  --color: #5528fb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+nav,
+main,
+footer {
+  width: 100%;
+}
+
+.u-container {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  width: 50%;
+}

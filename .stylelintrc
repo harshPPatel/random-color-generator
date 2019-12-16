@@ -75,7 +75,7 @@
     "string-quotes": "single",
     "unit-case": "lower",
     "unit-no-unknown": true,
-    "unit-whitelist": ["em", "rem", "%", "s", "px"],
+    "unit-whitelist": ["em", "rem", "%", "s", "px", "vh", "vw"],
     "value-keyword-case": "lower",
     "value-list-comma-space-after": "always",
     "value-list-comma-space-before": "never"
