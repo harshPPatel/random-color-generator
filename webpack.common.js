@@ -9,21 +9,6 @@ module.exports = {
   // Dev tools Configuration
   devtool: 'source-maps',
 
-  // Plugins
-  plugins: [
-    // Copy plugin to copy all files from './source/favico' to root of the project
-    new CopyPlugin([
-      {
-        from: './source/favicon',
-        to: './',
-      },
-      {
-        from: './source/json',
-        to: './json',
-      },
-    ]),
-  ],
-
   // Modules
   module: {
     // Rules
@@ -57,7 +42,7 @@ module.exports = {
 
       // Handles requests to '.ico' and '.webmanifest' files inside HTML
       {
-        test: /\.(ico|webmanifest)$/,
+        test: /\.(ico)$/,
         use: {
           loader: 'file-loader',
           options: {

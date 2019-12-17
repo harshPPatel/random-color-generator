@@ -10,6 +10,7 @@
   border-radius: 1000px;
   background-color: var(--color);
   box-shadow: 4px 4px 16px rgba(#000, 0.25);
+  cursor: pointer;
 }
 
 .color-format {
@@ -22,7 +23,7 @@
   }
 
   #rgb-value,
-  #hsb-value,
+  #hsl-value,
   #cmyk-value {
     font-size: 28px;
   }
