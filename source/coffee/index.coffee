@@ -1,5 +1,6 @@
 import tinycolor from 'tinycolor2'
 import rgbToCmyk from 'rgb-cmyk'
+import utils from './utils.coffee'
 
 # Getting All Target HTML Elements
 hexElement = document.getElementById 'hex-value'
@@ -8,6 +9,7 @@ hslElement = document.getElementById 'hsl-value'
 cmykElement = document.getElementById 'cmyk-value'
 textColorElement = document.getElementById 'text-color'
 imageElement = document.getElementById 'color-container'
+copyElement = document.getElementById 'copy-popup'
 
 # Color set to generate random color with HEX value
 colorsSet = 'ABCDEF0123456789'
@@ -42,5 +44,13 @@ document.body.onkeyup = (e) ->
 imageElement.onclick = (e) ->
   e.preventDefault()
   setColor(generateColor())
+
+hexElement.onclick = (e) ->
+  utils.copyText(e.target.textContent)
+  copyElement.classList.remove 'animated'
+  copyElement.classList.add 'animated'
+  timeout = setTimeout ->
+    copyElement.classList.remove 'animated'
+  , 6000
 
 window.onload = setColor(generateColor())
