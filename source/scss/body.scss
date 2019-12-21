@@ -11,14 +11,27 @@
   background-color: var(--color);
   box-shadow: 4px 4px 16px rgba(#000, 0.25);
   cursor: pointer;
+  @media screen and (max-width: 767px) {
+    height: 200px;
+    width: 200px;
+  }
 }
 
 .color-format {
   margin-bottom: 24px;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 16px;
+  }
+  @media screen and (max-width: 368px) {
+    margin-bottom: 12px;
+  }
 
   &.hex {
     #hex-value {
       font-size: 52px;
+      @media screen and (max-width: 767px) {
+        font-size: 44px;
+      }
     }
   }
 
@@ -26,6 +39,9 @@
   #hsl-value,
   #cmyk-value {
     font-size: 28px;
+    @media screen and (max-width: 767px) {
+      font-size: 22px;
+    }
   }
 
   .color-type {
@@ -39,8 +55,15 @@
   text-align: center;
   margin-top: 50px;
   font-size: 22px;
+  @media screen and (max-width: 767px) {
+    margin-top: 25px;
+    font-size: 18px;
+  }
 
   .instructions {
     margin-top: 50px;
+    @media screen and (max-width: 767px) {
+      margin-top: 16px;
+    }
   }
 }

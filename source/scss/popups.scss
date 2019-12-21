@@ -27,6 +27,8 @@ i {
   border: 1px solid var(--color);
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(#000, 0.1);
+  background: #fff;
+  z-index: 999;
 
   b {
     color: var(--color);
