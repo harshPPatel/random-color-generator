@@ -67,7 +67,7 @@
     "rgb-cmyk": "^1.0.0",
     "selectivizr": "^1.0.3",
     "stylelint": "^11.0.0",
-    "tinycolor2": "^1.4.1",
+    "tinycolor2": "^1.4.2",
     "webpack-merge": "^4.2.1"
   }
 }
