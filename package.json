@@ -62,7 +62,7 @@
     "webpack-pwa-manifest": "^4.1.1"
   },
   "dependencies": {
-    "autoprefixer": "^9.6.1",
+    "autoprefixer": "^9.8.6",
     "html5shiv": "^3.7.3",
     "rgb-cmyk": "^1.0.0",
     "selectivizr": "^1.0.3",
